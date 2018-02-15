@@ -64,31 +64,35 @@ nav > li > a:focus {
 }
 
 body {
-	font-family:"Open Sans", Helvetica, Arial, sans-serif;
-	font-weight:300;
-	font-size: 12px;
-	line-height:30px;
-	color:#777;
-	background: url(../images/background.jpg) no-repeat;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    /* font-weight: 300; */
+    /* font-size: 12px; */
+    line-height: 30px;
+    color: #777;
+    background: url(../images/background.jpg) no-repeat;
 }
 
 .formcontainer{
-    float: left;
+    /*float: left; */
+    /* clear: both; */
 }
 
 .container {
-	max-width:400px;
-	width:100%;
-	margin:0 auto;
-	position:relative;
+    max-width: 50%;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    /* display: block; */
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
-	background:#F9F9F9;
-	padding:25px;
-    margin:50px 0;
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 50px 0;
+    float: left;
 }
 
 #contact h3 {
@@ -179,10 +183,15 @@ fieldset {
 
 .connect {
     background-color: white;
-    width: 35%;
+    /* width: 35%; */
     height: 150px;
     float: left;
     margin-left: 20px;
+    margin-top: 50px;
+}
+
+.connect h4 {
+    margin-left: 2px;
 }
 
 #logo {
