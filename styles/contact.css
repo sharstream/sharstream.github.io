@@ -92,7 +92,8 @@ body {
     background: #F9F9F9;
     padding: 25px;
     margin: 50px 0;
-    float: left;
+    margin-left: 25px;
+    display: inline-block;
 }
 
 #contact h3 {
@@ -183,11 +184,11 @@ fieldset {
 
 .connect {
     background-color: white;
-    /* width: 35%; */
+    width: 75%;
     height: 150px;
+    margin-left: 50%;
     float: left;
-    margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .connect h4 {

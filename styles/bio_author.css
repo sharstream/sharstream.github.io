@@ -1,3 +1,8 @@
+* {
+	margin:0;
+    padding:0;
+}
+
 body {
     background: url(../images/background.jpg) no-repeat;
 }
@@ -115,8 +120,8 @@ img.resize {
 
 .connect {
     background-color: white;
-    width: 35%;
-    height: 150px;
+    width: 25%;
+    height: 120px;
     float: left;
     margin-left: 20px;
 }
