@@ -69,7 +69,7 @@ body {
     /* font-size: 12px; */
     line-height: 30px;
     color: #777;
-    background: url(../images/background.jpg) no-repeat;
+    background: url(../images/background.jpg);
 }
 
 .formcontainer{
