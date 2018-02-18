@@ -31,29 +31,6 @@ h1, h2 {
     margin: 0px 20px 10px 0px;
 }
 
-.thumbnail {
-    position: relative;
-    margin-bottom: 40px;
-    cursor: pointer;
-    transition: all .8s ease;
-}
-
-.thumbnail:hover {
-    transform: scale(1.1);
-}
-
-.thumbnail img {
-    max-width: 100%;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
 .label {
     position: absolute;
     bottom: 20px;
@@ -65,12 +42,6 @@ h1, h2 {
     color: white;
     font-size: 1.2em;
     background-color: rgba(74, 170, 165, .7);
-}
-
-input {
-    width: calc(100% - 20px);
-    padding: 5px 5px 5px 15px;
-    font-size: .8em;
 }
 
 #sideBar {
@@ -85,67 +56,6 @@ input {
     text-decoration: none;
 }
 
-.color-twitter{color:#00aced;}
-.color-facebook{color:#00539f;}
-.color-linkedin{color:#0176b5;}
-
-#socialIcon {
-    width: 60px;
-    height: 60px;
-}
-
-#socialIcon div {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 60px;
-    height: 60px;
-}
-
-#gitHubIconBlack {
-    background-image: url("../images/git.jpeg");
-    background-size: contain;
-    transition: opacity .3s ease;
-}
-
-#gitHubIconRed {
-    background-image: url("../images/redgithub.png");
-    background-size: contain;
-}
-
-#gitHubIconBlack:hover {
-    opacity: 0;
-}
-
-#linkedinIconBlack {
-    background-image: url("../images/linked.jpeg");
-    background-size: contain;
-    transition: opacity .3s ease;
-}
-
-#linkedinIconRed {
-    background-image: url("../images/redlinked.png");
-    background-size: contain;
-}
-
-#linkedinIconBlack:hover {
-    opacity: 0;
-}
-
-#stackIconBlack {
-    background-image: url("../images/stackoverflowblack.png");
-    background-size: contain;
-    transition: opacity .3s ease;
-}
-
-#stackIconRed {
-    background-image: url("../images/stackoverflow.png");
-    background-size: contain;
-}
-
-#stackIconBlack:hover {
-    opacity: 0;
-}
 /* Height of the footer and height of the blank div that is added to the body to stop the footer from overlapping body content. */
 footer, .push {
     height: 80px;

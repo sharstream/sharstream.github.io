@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio with Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Social Buttons for Bootstrap" />
+    <meta property="og:image" content="http://lipis.github.io/bootstrap-social/assets/img/bootstrap-social.png" />
+    <title>Bootstrap Portfolio</title>
     <!-- We need to bring in the bootstrap CSS -->
     <link rel="stylesheet" href="styles/bio_author.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="bower_components/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -20,13 +25,13 @@
             <div id="navbar" class="nav navbar-nav navbar-right">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="index.html">About</a>
+                        <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i> About</a>
                     </li>
                     <li>
-                        <a href="portfolio.html">Portfolio</a>
+                        <a class="navbar-brand" href="portfolio.html"><i class="fa fa-building"></i> Portfolio</a>
                     </li>
                     <li>
-                        <a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+                        <a class="navbar-brand" href="contact.html"><i class="fa fa-phone"></i> Contact</a></li>
                     </li>
                 </ul>
             </div>
@@ -44,29 +49,31 @@
                 
             </div> -->
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
             <div class="panel panel-success">
                 <div class="panel-heading">Contact with me</div>
                 <div class="panel-body">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-twitter color-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook color-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin color-linkedin"></i></a></li>
-                    </ul>
-                    
-                        <!-- <a href="https://github.com/sharstream" class="col-sl-4" id="socialIcon">
-                            <div id="gitHubIconRed"></div>
-                            <div id="gitHubIconBlack"></div>
-                        </a>
-                        <a href="https://www.linkedin.com/in/davedevelopmentusa/" class="col-sl-4" id="socialIcon">
-                            <div id="linkedinIconRed"></div>
-                            <div id="linkedinIconBlack"></div>
-                        </a>
-                        <a href="https://salesforce.stackexchange.com/users/28770/dave" class="col-sl-4" id="socialIcon">
-                            <div id="stackIconRed"></div>
-                            <div id="stackIconBlack"></div>
-                        </a> -->
-                    
+                    <a class="btn btn-social-icon btn-lg btn-github">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-lg btn-linkedin">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-lg btn-twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <!-- <a href="https://github.com/sharstream" class="col-sl-4" id="socialIcon">
+                        <div id="gitHubIconRed"></div>
+                        <div id="gitHubIconBlack"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/davedevelopmentusa/" class="col-sl-4" id="socialIcon">
+                        <div id="linkedinIconRed"></div>
+                        <div id="linkedinIconBlack"></div>
+                    </a>
+                    <a href="https://salesforce.stackexchange.com/users/28770/dave" class="col-sl-4" id="socialIcon">
+                        <div id="stackIconRed"></div>
+                        <div id="stackIconBlack"></div>
+                    </a>     -->
                 </div>
             </div>
         </div>
@@ -103,7 +110,13 @@
                 </section>
             </div>
         </div>
+        <div class="push"></div>
     </div>
+    <footer>
+        <p id="copyright">
+            &copy; Copyright 2018 David Perez Portfolio
+        </p>
+    </footer>
 </body>
 
 </html>
