@@ -27,6 +27,10 @@ h1, h2 {
     text-indent: 30px;
 }
 
+.top_container {
+    background-color: white;
+}
+
 .label {
     position: absolute;
     bottom: 20px;
@@ -73,4 +77,26 @@ footer {
 
 #copyright {
     margin: 0px;
+}
+
+.img1 {
+    width:65%; 
+    height:auto;
+}
+
+.img {
+    width:20%; 
+    height:auto; 
+}
+
+@media screen and (max-width: 990px) {
+    .img1 {
+        width:65%; 
+        height:auto;
+    }
+
+    .img {
+        width:65%; 
+        height:auto; 
+    }
 }
